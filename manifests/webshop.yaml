@@ -16,8 +16,8 @@ spec:
         app: webshop
     spec:
       containers:
-        - name: webshop
-          image: nginx:latest # DEVA-GUESS: assuming latest version is desired
+        - name: web
+          image: nginx:latest # DEVA-GUESS: assuming latest version is desired, replace with a valid version if needed
           resources:
             requests:
               cpu: 20m
